@@ -18,3 +18,9 @@ export const validAPILogin = {
   email: 'eve.holt@reqres.in',
   password: 'cityslicka'
 }
+
+export const apiUserDataRetrieve = {
+  first_name: 'Janet',
+  last_name: 'Weaver',
+  email: 'janet.weaver@reqres.in'
+}

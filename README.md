@@ -1,6 +1,6 @@
 # Playwright E2E-UI-API Tests
 
-This repository contains end-to-end (E2E) tests for UI and API functionalities using [Playwright](https://playwright.dev/). The project is structured to test UI application [Saucedemo](https://saucedemo.com/), covering User login, checkout & soring items flow e2e, API tests using [reqres](https://reqres.in/).
+This repository contains end-to-end (E2E) tests for UI and API functionalities using [Playwright](https://playwright.dev/). The project is structured to test UI application [Saucedemo](https://saucedemo.com/), covering User login, checkout & sorting items flow e2e, API tests using [reqres](https://reqres.in/).
 
 ## Project Structure
 
@@ -49,7 +49,7 @@ playwright-e2e-ui-api-tests/
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd playwright-e2e-tests
+   cd playwright-e2e-ui-api-tests
    ```
 
 2. Install dependencies:
@@ -114,7 +114,7 @@ The following assumption and usage of AI:
    - **Expected Behavior**: Api returns back response in less than or equal to 3 seconds maximum.
 
 2. **AI usage**  
-   - **Usage**: Github copilot was used to enhance the code readability.  
+   - **Usage**: GitHub Copilot was utilized to improve code readability, to generate the visual project structure outlined in the project structure section & support with improving playwright.yml file.
 
 ## CI/CD Integration
 

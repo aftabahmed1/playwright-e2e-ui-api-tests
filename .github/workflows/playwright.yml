@@ -35,6 +35,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Restore Playwright Dependencies
         run: npm ci
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
       - name: Run Playwright UI tests
         run: npx playwright test --project="UI Tests"
       - name: Upload UI Playwright Report
